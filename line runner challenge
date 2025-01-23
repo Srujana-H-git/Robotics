@@ -60,7 +60,7 @@ while(nMotorEncoder[left]<d2+100 && nMotorEncoder[right]<d2+100)
 	fwd();
 }
 stoprobot();
-d2= nMotorEncoder[left]+d1;
+d3= nMotorEncoder[left]+d1;
 while(nMotorEncoder[left]>0 && nMotorEncoder[right]>0)
 {
 	motor[left]=-50;
